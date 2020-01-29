@@ -48,6 +48,7 @@ html, body{
 	animation-duration: 2s;
 	animation-fill-mode: both; /*forwards backwards*/
 	animation-iteration-count: infinite;
+	animation-timing-function: cubic-bezier(.46,.01,.51,.99);
 }
 
 .luigi{
@@ -59,6 +60,7 @@ html, body{
 	animation-fill-mode: both;
 	animation-iteration-count: infinite;
 	animation-direction: reverse;
+	animation-timing-function: linear;
 }
 
 /* KeyFrames */
